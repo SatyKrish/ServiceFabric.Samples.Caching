@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "CacheApplication", "CacheApplication\CacheApplication.sfproj", "{4187968D-2BC3-409D-B105-A6E424174744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheService", "CacheService\CacheService.csproj", "{982289AF-7BF3-4CEA-A330-EF24C305451E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheCore", "CacheCore\CacheCore.csproj", "{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheClient", "CacheClient\CacheClient.csproj", "{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4187968D-2BC3-409D-B105-A6E424174744}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{4187968D-2BC3-409D-B105-A6E424174744}.Debug|x64.ActiveCfg = Debug|x64
+		{4187968D-2BC3-409D-B105-A6E424174744}.Debug|x64.Build.0 = Debug|x64
+		{4187968D-2BC3-409D-B105-A6E424174744}.Debug|x64.Deploy.0 = Debug|x64
+		{4187968D-2BC3-409D-B105-A6E424174744}.Release|Any CPU.ActiveCfg = Release|x64
+		{4187968D-2BC3-409D-B105-A6E424174744}.Release|x64.ActiveCfg = Release|x64
+		{4187968D-2BC3-409D-B105-A6E424174744}.Release|x64.Build.0 = Release|x64
+		{4187968D-2BC3-409D-B105-A6E424174744}.Release|x64.Deploy.0 = Release|x64
+		{982289AF-7BF3-4CEA-A330-EF24C305451E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{982289AF-7BF3-4CEA-A330-EF24C305451E}.Debug|x64.ActiveCfg = Debug|x64
+		{982289AF-7BF3-4CEA-A330-EF24C305451E}.Debug|x64.Build.0 = Debug|x64
+		{982289AF-7BF3-4CEA-A330-EF24C305451E}.Release|Any CPU.ActiveCfg = Release|x64
+		{982289AF-7BF3-4CEA-A330-EF24C305451E}.Release|x64.ActiveCfg = Release|x64
+		{982289AF-7BF3-4CEA-A330-EF24C305451E}.Release|x64.Build.0 = Release|x64
+		{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}.Debug|x64.ActiveCfg = Debug|x64
+		{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}.Debug|x64.Build.0 = Debug|x64
+		{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}.Release|x64.ActiveCfg = Release|Any CPU
+		{E75441B7-2C93-4756-AEFD-48B08F6B9EC1}.Release|x64.Build.0 = Release|Any CPU
+		{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}.Debug|x64.ActiveCfg = Debug|x64
+		{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}.Debug|x64.Build.0 = Debug|x64
+		{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}.Release|x64.ActiveCfg = Release|Any CPU
+		{35EA037D-2BA7-40CC-9F5C-55F5E64BEF3B}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
